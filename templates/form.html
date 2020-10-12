@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+	<body>
+		<nav>
+			<a href="{{ url_for('home') }}">Home</a>
+		</nav>
+		
+		<form method="POST" action="{{ url_for('submit') }}">
+			<label>
+				<p>Author</p>
+				<input type="text" name="author" />
+			</label>
+			
+			<label>
+				<p>Post</p>
+				<textarea name="post">Enter your comments...</textarea>
+			</label>
+			
+			<input type="submit" name="button" value="submit"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+nav {
+	border-bottom: 1px solid black;
+}
+
+a {
+	text-decoration: none;
+}
+
+article  {
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+p  {
+	margin: 0 0 1px 5px;
+}
+
+.author {
+	font-weight: bold;
+}
+
+form {
+	margin-top: 10px;
+}
